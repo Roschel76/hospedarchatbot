@@ -7,7 +7,7 @@ from pathlib import Path
 # ---------------- CONFIGURAÇÃO ----------------
 PROJECT_ROOT = Path(__file__).resolve().parent
 VENV_PATH = PROJECT_ROOT / ".venv"
-BACKEND_MAIN = PROJECT_ROOT / "backend" / "main.py"
+BACKEND_MAIN = PROJECT_ROOT / "main.py"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "SUA_CHAVE_AQUI")
 DEFAULT_PACKAGES = ["requests", "uvicorn", "python-dotenv"]
 REQUIREMENTS_FILE = PROJECT_ROOT / "requirements.txt"
